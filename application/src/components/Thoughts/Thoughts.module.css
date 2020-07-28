@@ -1,0 +1,84 @@
+.thoughts_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.thoughts {
+    width: 80%;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    padding: 10px;
+}
+.singleThought {
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.singleThought_main {
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.singleThought_attitude {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.singleThought_input {
+    padding: 10px;
+    width: 250px;
+    outline: none;
+    border: 1px solid rgb(76, 150, 211);
+    border-radius: 5px;
+    
+
+}
+.singleThought_input:focus {
+    box-shadow: 0px 0px 5px 0px rgb(76, 150, 211), 0px 0px 10px 0px rgb(76, 150, 211), 0px 0px 25px 0px rgb(76, 150, 211);
+
+}
+
+.thoughts_input {
+    width: 60%;
+
+}
+.thoughts_input input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 30px;
+
+}
+
+.singleThought_edition {
+    margin: 7px 0;
+    font-size: 13px;
+    font-style: italic;
+    color: #908787;
+}
+
+.singleThought_attitude {
+display: flex;
+justify-content: space-between;
+}
+
+.singleThought_attitude span {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid #3f3fa2;
+    margin: 5px auto;
+    justify-content: space-around;
+}
+
